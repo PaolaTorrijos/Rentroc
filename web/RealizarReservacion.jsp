@@ -44,12 +44,9 @@
    <div class="nav-wrapper container">
 <a id="logo-container" href="#" class="brand-logo">Realiza tu Reservación<i class="material-icons"></i></a>
 
-	 <?php if ($errores): ?>
+	 
   <ul style="color: #f00;" class="right hide-on-med-and-down">
-	          <?php foreach ($errores as $error): ?>
-             <li> <?php echo $error ?> <a href="index.jsp">Inicio</a> </li>
-          <?php endforeach; ?>
-    <?php endif; ?>
+	          
 	</ul>
     </div>
 </nav>
@@ -72,11 +69,11 @@
           <label for="apellido_materno"></label>
         </div>
          <div class="input-field col s6 #f5f5f5 grey lighten-4">
-          <input placeholder="Nombre" id="nombre" type="text" name="nombre" value="<?php echo $nombre ? class="validate">
+          <input placeholder="Nombre" id="nombre" type="text" name="nombre" >
           <label for="nombre"></label>
         </div>
          <div class="input-field col s6 #f5f5f5 grey lighten-4">
-          <input placeholder="Telefono" type="text" name="telefono" value="<?php echo $telefono ? class="validate">
+          <input placeholder="Telefono" type="text" name="telefono" >
           <label for="telefono"></label>
         </div>
         <div class="input-field col s6 center #f5f5f5 grey lighten-4">
@@ -90,7 +87,7 @@
         </div>
         
         <div class="input-field col s6 #f5f5f5 grey lighten-4">
-          <input placeholder="Correo Electrónico" type="text" name="correo_electronico" value="<?php echo $correo_electronico ?class="validate">
+          <input placeholder="Correo Electrónico" type="text" name="correo_electronico" >
           <label for="correo_electronico"></label>
         </div>
         <div class="input-field col s6 #f5f5f5 grey lighten-4">
