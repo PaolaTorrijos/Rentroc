@@ -46,7 +46,7 @@
    <div class="nav-wrapper container">
 <a id="logo-container" href="#" class="brand-logo"> VEHICULOS<i class="material-icons"></i></a>
 	<ul class="right hide-on-med-and-down">
-	   <li><a href="index.html">Inicio</a></li>	
+	   <li><a href="index.jsp">Inicio</a></li>	
             
 	</ul>
     </div>
@@ -72,14 +72,14 @@
         <div class="col s12 center">
           <h3 ><i class="mdi-content-send brown-text"></i></h3>
             <div class="carousel">
-          <a class="carousel-item" href="#modal1"><img src="audiA1.jpg" width="300" height="200"></a>
-          <a class="carousel-item" href="#modal2"><img src="spark.jpg"></a>
-          <a class="carousel-item" href="#modal3"><img src="vwgol.jpg"></a>
-          <a class="carousel-item" href="#modal4"><img src="smart.jpg"></a>
-          <a class="carousel-item" href="#modal5"><img src="atos.jpg"></a>
-          <a class="carousel-item" href="#modal6"><img src="march.jpg"></a>
-           <a class="carousel-item" href="#modal7"><img src="platina.jpg"></a>
-            <a class="carousel-item" href="#modal8"><img src="hyundai.jpg"></a>
+          <a class="carousel-item" href="#modal1"><img src="images/audiA1.jpg" width="300" height="200"></a>
+          <a class="carousel-item" href="#modal2"><img src="images/spark.jpg"></a>
+          <a class="carousel-item" href="#modal3"><img src="images/vwgol.jpg"></a>
+          <a class="carousel-item" href="#modal4"><img src="images/smart.jpg"></a>
+          <a class="carousel-item" href="#modal5"><img src="images/atos.jpg"></a>
+          <a class="carousel-item" href="#modal6"><img src="images/march.jpg"></a>
+           <a class="carousel-item" href="#modal7"><img src="images/platina.jpg"></a>
+            <a class="carousel-item" href="#modal8"><img src="images/hyundai.jpg"></a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
   </div>
 
       <div class="container">
-        <div class="parallax"><img src="vehiculomapa.jpg"></div>
+        <div class="parallax"><img src="images/vehiculomapa.jpg"></div>
       </div>
 
 
